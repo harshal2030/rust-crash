@@ -3,7 +3,7 @@ use std::mem;
 pub fn run() {
   let mut numbers: Vec<i32> = vec![1, 2, 3, 4, 5];
 
-  // Re-assgin value
+  // Re-assign value
   numbers[0] = 20;
 
   // Add on to vectors
@@ -19,7 +19,7 @@ pub fn run() {
   println!("Vector length: {}", numbers.len());
 
   // Arrays are allocated
-  println!("Vector occpuies {} bytes", mem::size_of_val(&numbers));
+  println!("Vector occupies {} bytes", mem::size_of_val(&numbers));
 
   // Get slice
   let slice: &[i32] = &numbers[0..2];

@@ -3,7 +3,7 @@ use std::mem;
 pub fn run() {
   let mut numbers: [i32; 5] = [1, 2, 3, 4, 5];
 
-  // Re-assgin value
+  // Re-assign value
   numbers[0] = 20;
 
   println!("Single value: {}", numbers[0]);
